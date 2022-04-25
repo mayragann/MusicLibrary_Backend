@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'corsheaders'
 ]
 REST_FRAMEWORK = {
-    'COERCE_DECIMAL_TO_STRING': False
+    'COERCE_DECIMAL_TO_STRING': False,
+    
 }
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
